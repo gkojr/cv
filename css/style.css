@@ -1,0 +1,140 @@
+body {
+    background-color: ivory;
+   text-align: center;
+    margin: 0px;
+}
+.mainbody {
+    font-family: 'Quicksand'; 
+    padding: 10px 0 20px 0;
+}
+nav {
+    background: linear-gradient(to right, rgb(192, 255, 255), rgb(0, 192, 192));
+    padding: 5px;
+    border-bottom: solid medium black;
+    display: flex;
+    justify-content: right;
+}
+a {
+    color: rgb(214, 162, 33); 
+    text-decoration: none; 
+}
+a:hover {
+    font-weight: bold;
+}
+.contact {
+    color: rgb(56, 16, 126);
+    font-family: 'Noto Sans Khojki';
+    font-weight: bold;
+    font-size: small;
+}
+.contact:hover {
+    color: #f09ced; 
+    font-style: italic;
+    font-size: medium;
+}
+footer {
+    background: linear-gradient(to right, cyan, rgb(154, 243, 160));
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 15px 0 15px 0; 
+    display: flex;
+    justify-content: center;
+}
+.footeranchor {
+    color: rgb(56, 16, 126);
+    font-family: 'Noto Sans Khojki';
+    font-weight: bold;
+    font-size: small;
+}
+.footeranchor:hover {
+    color: #f09ced; 
+    font-style: italic;
+    font-size: medium;
+}
+.splash {
+    background: linear-gradient(to right, aquamarine, rgb(157, 209, 255));
+    padding: 40px 0 30px 0;
+    font-family: "Noto Sans Khojki";
+    position: relative;
+}
+h1 {
+    color: #8CC0DE
+}
+h2 {
+    color: palevioletred;
+}
+hr {
+    border-style: dashed;
+    width: 90%;
+    border-width: 4px;
+    border-color: cyan;
+}
+.piano {
+    position: absolute;
+    top: 30px; 
+    left: 50px; 
+    width: 150px; 
+    height: auto;    
+}
+.piano2 {
+    position: absolute;
+    top: 30px; 
+    right: 50px; 
+    width: 150px; 
+    height: auto;  
+}
+.card {
+    background: linear-gradient(to right, rgb(202, 212, 219), rgb(202, 255, 231));
+    border: solid medium black;
+    box-shadow: 0 -10px 9px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;  
+   display: grid;
+  
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+    justify-content: space-between; 
+}
+ul#lister {
+    text-align: left;
+}
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    justify-content: space-between;
+    padding: 20px;
+}
+.pictures {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.headshot {
+    border: solid medium black;
+    border-width: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    padding: 10px;
+}
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+input[type="submit"] {
+    background-color: #c9e8ff;
+    color: #292341;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
